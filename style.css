@@ -2,15 +2,18 @@ html {
   scroll-behavior: smooth;
 }
 
-#subscribe,
+/* #subscribe,
 #backpack,
 #shoes,
 #categories,
 #subscribe,
 #footer {
   padding-top: 5rem;
+} */
+section,
+footer {
+  padding-top: 5rem;
 }
-
 h2,
 h4 {
   text-transform: capitalize;
@@ -48,25 +51,17 @@ h4 {
 /* Navbar End */
 
 /* Slider Start */
-.card {
-  border-radius: 0.6rem;
-}
 
 .carousel-item {
-  padding: 8rem 0;
-}
-@media screen and (min-width: 992px) {
-  .slider {
-    min-height: 100vh;
-  }
-  .carousel-item {
-    padding: 5rem 0;
-  }
+  padding-bottom: 3rem;
 }
 
 /* Slider End */
 
 /* Categoriy Section Start */
+.card {
+  border-radius: 0.6rem;
+}
 .category1 {
   background: #ffa500;
 }
